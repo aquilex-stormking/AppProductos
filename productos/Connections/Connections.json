@@ -1,0 +1,52 @@
+{
+  "e9118d56-3c84-4b76-b2ca-55051b2d595d": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1591/1.0.1591.2961/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/Productos": {
+        "dataSources": {
+          "Products Admin": {
+            "tableName": "435f64d7-50c9-4643-86eb-8f15355e4fee"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Products Admin"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e9118d56-3c84-4b76-b2ca-55051b2d595d"
+  },
+  "ebc77b8d-c4e9-4950-9560-9e7f4f985170": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1591/1.0.1591.2961/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/Productos": {
+        "dataSources": {
+          "Ordenes_1": {
+            "tableName": "0c0502c8-26e9-4dfa-9763-f294eb32927b"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Ordenes_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "ebc77b8d-c4e9-4950-9560-9e7f4f985170"
+  }
+}

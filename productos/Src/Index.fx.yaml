@@ -1,0 +1,47 @@
+Index As screen:
+
+    logoApp As image:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Height: =586
+        Image: ='Sin título'
+        Width: =707
+        X: =347
+        Y: =94
+        ZIndex: =1
+
+    Rectangle6 As rectangle:
+        BorderThickness: =3
+        Height: =81
+        Width: =1366
+        ZIndex: =2
+
+    Button3 As button:
+        Height: =48
+        OnSelect: =Navigate(Productos)
+        Text: ="Productos"
+        Width: =193
+        X: =285
+        Y: =693
+        ZIndex: =3
+
+    Button3_1 As button:
+        Height: =48
+        OnSelect: =Navigate(Ordenes)
+        Text: ="Ordenes"
+        Width: =193
+        X: =908
+        Y: =693
+        ZIndex: =4
+
+    Label17 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =61
+        Size: =30
+        Text: ="Adminproducts"
+        Width: =323
+        X: =521
+        Y: =10
+        ZIndex: =5
+
